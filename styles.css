@@ -1,0 +1,44 @@
+@font-face {
+  font-family: CaesarDressing;
+  src: url("./fonts/CaesarDressing-Regular.ttf");
+}
+
+@font-face {
+  font-family: gentium-regular;
+  src: url("./fonts/gentium-book-basic.regular.ttf");
+}
+
+
+html { 
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)), url('./images/background.png') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  font-family: gentimum-regular;
+  font-size: x-large;
+
+  padding: 0% 5%;
+}
+
+.patch-notes {
+  width: 55%;
+}
+
+.patch-notes h3 {
+  margin-bottom: 0;
+}
+.patch-notes ul {
+  margin-top: 0;
+}
+
+.title {
+  font-family: CaesarDressing;
+  font-size: 300%;
+
+  width: 100%;
+}
+

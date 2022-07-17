@@ -1,0 +1,6 @@
+- name: Home
+  link: /
+- name: Patch Notes
+  link: /patchnotes.html
+- name: About
+  link: /about.html

@@ -1,0 +1,44 @@
+@import "main";
+
+.top {
+    overflow: hidden;
+    background-color: rgb(51, 51, 51);
+    position: fixed;
+    /* Set the navbar to fixed position */
+    top: 0;
+    /* Position the navbar at the top of the page */
+    width: 100%;
+    /* Full width */
+    padding-left: 5%;
+  }
+  
+  
+  .header-title {
+    font-family: CaesarDressing;
+    font-size: 400%;
+    color: whitesmoke;
+  
+    width: 100%;
+    margin: 4px 0;
+  }
+  
+  .navbar {
+    font-size: 200%;
+  }
+  
+  .navbar-unselected {
+    color: whitesmoke;
+  }
+  
+  .navbar-selected {
+    color: black;
+    background-color: whitesmoke;
+  }
+
+  .navbar a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }

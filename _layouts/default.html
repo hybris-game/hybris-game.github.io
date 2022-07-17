@@ -1,18 +1,22 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="/assets/css/styles.css">
-    <link rel="shortcut icon" href="#">
-  </head>
-  <body>
-    <div class="top">
-      {% include header.html %}
-      {% include navigation.html %}
-    </div>
-    <div class="content">
-      {{ content }}
-    </div>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <title>Hybris - {{ page.title }}</title>
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link rel="shortcut icon" href="#">
+  <link rel="icon" href="../assets/images/icon.ico" type="image/x-icon">
+</head>
+
+<body>
+  <div class="top">
+    {% include header.html %}
+    {% include navigation.html %}
+  </div>
+  <div class="content">
+    {{ content }}
+  </div>
+</body>
+
 </html>

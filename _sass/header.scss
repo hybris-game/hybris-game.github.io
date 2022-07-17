@@ -29,6 +29,10 @@
   .navbar-unselected {
     color: whitesmoke;
   }
+
+  .navbar-unselected:hover {
+    background-color: gray;
+  }
   
   .navbar-selected {
     color: black;

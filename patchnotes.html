@@ -1,0 +1,10 @@
+---
+layout: default
+title: Patch Notes
+---
+<ul>
+    {% for patchnote in site.patchnotes reversed %}
+    <h3 style="margin-bottom: 0;">{{ patchnote.title }}</h3>
+    {{ patchnote.content }}
+    {% endfor %}
+</ul>

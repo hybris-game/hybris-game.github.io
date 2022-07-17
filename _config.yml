@@ -1,0 +1,4 @@
+collections:
+  patchnotes:
+    output: true
+    sort_by: title
